@@ -20,3 +20,13 @@
 - Structure!
 - Have fun!
 - Hosted DEMO would give some extra points
+
+## to start:
+
+- npm install
+- npm start
+
+## A few comments
+
+- I definitely learned a bunch while completing this task, looking forward to feedback so i can learn even more !
+- There are a few screenshots of various screen widths in the root folder of this repo

@@ -1,0 +1,79 @@
+$color1: #d95252;
+$color2: #f09eaa;
+$color3: #851b1b;
+
+.offer-text-lg {
+    font-size: 2.5em;
+    font-weight: 600;
+    display:content;
+}
+.offer-emphasis-color {
+    color: $color1;
+}
+.timer-number{
+    font-size: 2em;
+    font-weight: 600;
+}
+.timer-label{
+    font-size: 0.7em;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+.offer-button{
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-top:10px;
+    background-color: $color1;
+    border-color: $color1;
+    border-radius:7px;
+    padding: 15px;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+.offer-button:hover{
+    background-color:$color3;
+    border-color:$color3;
+}
+
+.triangle-left,.triangle-right {
+	width: 0;
+    height: 0;
+    margin: 16px;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+}
+.triangle-left {
+	border-right: 16px solid $color1;
+}
+.triangle-right {
+	border-left: 16px solid $color1;
+}
+.triangle-bottom {
+	width: 0;
+    height: 0;
+	border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-top: 16px solid $color2;
+}
+.offer-savings {
+    background-color: $color2;
+    font-size: 1.4em;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+.big-currency {
+    font-size: 8em;
+}
+.big-integral {
+    margin-top: -0.3em;
+    font-size: 20em;
+    font-weight: 600;
+}
+.big-fractional {
+    font-size: 5em;
+}
+.big-duration {
+    margin-top: 2em;
+    margin-left: -0.8em; 
+    font-size: 4em;
+}

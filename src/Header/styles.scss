@@ -1,0 +1,19 @@
+$color1: #ffe054;
+
+
+.header-text {
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    color:white;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+.header-text:hover {
+    color:$color1;
+}
+.extra-header-text {
+    font-size: 0.68em;
+    color: $color1;
+    margin-top: -3.5em;
+}
